@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: palevioletred;
+            background-color: black;
+        }
+        h4{
+            color: whitesmoke;
+            background-color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <h1>javascript is used to change the dynamic webpages.</h1>
+   <span><h1> variables</h1></span>
+   <h4>there are 3 variables that is var,  let, const </h4>
+    <script>
+          //===================var keyword======================//
+        console.log("var keyword");
+        var a //declaration  is possible
+        a=100; //intialazation is possible
+        console.log(a);  //utilization
+        document.writeln(a); 
+          
+        var a;    // re-declare a variable is possible
+        a=200;    // re-intialazation is possible
+        console.log(a);  //100//200
+        document.write(a);
+            
+
+        //======================let keyword================//
+         let b;  //declaration  is possible
+         b="hello";   //intialazation is possible
+       console.log(b);    //utilization
+       // let b;     re-declare a variable is not possible
+       b="world"     // re-intialazation is possible
+       console.log(b);    //world
+       document.writeln(b);
+          
+       //======================const keyword=================//
+           //const c;
+           // c=50;
+           const c=50;      //declaration & intialazation  is possible in same line
+           console.log(c);
+
+           //const c;     re-declare a variable is not possible 
+           //c=250;       re-intialazation is not possible
+           console.log(c);
+
+           //const c=250;    re-declaration &intialazation variable is not possible  
+        
+    </script>
+</body>
+</html>

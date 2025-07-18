@@ -1,0 +1,36 @@
+ #para1{
+            border: 2px solid rgb(208, 23, 115);
+            /* padding: 40px; */
+            /* padding-top: 40px; */
+            /* padding-right: 40px; */
+            /* padding-bottom: 40px; */
+            /* padding-left: 40px; */
+            /* padding: 10px 200px 100px 150px; */
+            /* padding:  40px 80px 120px; */
+            padding: 50px 200px;
+         }
+         h2{
+            /* border-style: dashed; */
+            /* border-style: dotted;
+            border-style: double;
+            border-style: outset;
+            border-style: ridge;
+            border-style: groove; */
+            border-style: solid;
+            border-width: 20px;
+            padding: 10px;
+            /* border-top-color: aqua;
+            border-left-color: blueviolet;
+            border-bottom-color: orange;
+            border-right-color: green; */
+            margin-right: 11px;
+            border-color: aqua blueviolet orange green;
+
+         }
+         #para3{
+            /* border-top-style: double;
+            border-top-width: 5px;
+            border-top-color: purple; */
+            border-top: double 5px purple;
+            
+         }
